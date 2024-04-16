@@ -254,7 +254,7 @@ export const projects = [
     title: "WanderLust",
     date: "Dec 2023 - Jan 2024",
     description:
-      "We implemented a full stack porject using MVC framework. Basically, it is an online marketplace that connects people who want to rent out their property with people who are looking for accommodations.",
+      "We implemented a full stack project using the MVC framework. Basically, it is an online marketplace that connects people who want to rent out their property with people who are looking for accommodations.",
     image:
       "https://github.com/Tarungupta18/upload-img/blob/aim/portfolio-img/WanderLust.png?raw=true",
     tags: [
