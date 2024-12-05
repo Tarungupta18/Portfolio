@@ -36,11 +36,11 @@ export const skills = [
         image:
           "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
       },
-      // {
-      //   name: "Angular Js",
-      //   image:
-      //     "https://camo.githubusercontent.com/8886130b3d8aba95dbdd7c4f9a41029606424cc06d1873c1ced87dd55a222fef/68747470733a2f2f616e67756c61722e696f2f6173736574732f696d616765732f6c6f676f732f616e67756c61722f616e67756c61722e737667",
-      // },
+      {
+        name: "TypeScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
+      },
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -162,9 +162,9 @@ export const skills = [
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
       {
-        name: "Render",
+        name: "Vercel",
         image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSbnG-zUyHXa2wGRUdUYhjcIcLRfSUO_qR4g&s",
       },
       {
         name: "VS Code",
@@ -219,6 +219,20 @@ export const education = [
 export const experiences = [
   {
     id: 0,
+    img: "https://github.com/Tarungupta18/upload-img/blob/aim/portfolio-img/workfall.jpg?raw=true",
+    role: "Frontend Developer Intern",
+    company: "Workfall PVT LTE",
+    date: "July 2024 - Sept 2023",
+    desc: "Build 10+ web pages from figma design.",
+    skills: [
+      "React",
+      "Tailwind",
+      "Responsive Design",
+    ],
+    doc: "https://drive.google.com/file/d/1YZHeK6VulKuzLInmDj2LS_EzLXNchbnU/view",
+  },
+  {
+    id: 1,
     img: "https://github.com/Tarungupta18/upload-img/blob/aim/portfolio-img/cisco-icon.png?raw=true",
     role: "Virtual Cyber Security Intern",
     company: "Cisco Pvt. Ltd.",
@@ -232,7 +246,7 @@ export const experiences = [
     doc: "https://drive.google.com/file/d/14UmFFXe0veetA7Fvx7XkZ47wTyO_CdqA/view?usp=drivesdk",
   },
   {
-    id: 1,
+    id: 2,
     img: "https://media.licdn.com/dms/image/D560BAQEZKRKOWBcJ_A/company-logo_200_200/0/1706735138636/octanetsolutions_logo?e=2147483647&v=beta&t=x4pBgtyLAr0gBAUCImcbOCCmhOTWB8B8dkXMSA5lde0",
     role: "Web Developer Intern",
     company: "Octanet pvt. ltd.",
