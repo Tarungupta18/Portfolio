@@ -117,6 +117,10 @@ export const skills = [
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
+      {
+        name: "Socket.io",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEsBOxoTrbdfcFix9XcbPt-qY1nKdudIDbfw&s",
+      },
     ],
   },
   {
@@ -192,8 +196,8 @@ export const education = [
     img: "https://collegekhabri.com/data/shri-ram-institute-of-technology-logo.jpg",
     school: "Shri Ram Institute of Science & Technology, Jabalpur",
     date: "Oct 2021 - Sep 2025",
-    grade: "8.44 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Shri Ram Institute of Science & Technology, Jabalpur. I have completed 5 semesters and have a CGPA of 8.44. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+    grade: "8.39 CGPA",
+    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Shri Ram Institute of Science & Technology, Jabalpur. I have completed 6 semesters and have a CGPA of 8.39. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
   {
@@ -264,25 +268,63 @@ export const experiences = [
 
 export const projects = [
   {
-    id: 11,
-    title: "WanderLust",
-    date: "Dec 2023 - Jan 2024",
+    id: 1,
+    title: "AI Interview mocker",
+    date: "June 2024 - June 2024",
     description:
-      "We implemented a full stack project using the MVC framework. Basically, it is an online marketplace that connects people who want to rent out their property with people who are looking for accommodations.",
+      "An AI-powered mock interview platform that generates interview questions based on user input, allows users to record and analyze their answers with speech-to-text, and includes payment processing features for premium services.",
     image:
-      "https://github.com/Tarungupta18/upload-img/blob/aim/portfolio-img/WanderLust.png?raw=true",
+      "https://github.com/Tarungupta18/upload-img/blob/aim/portfolio-img/Screenshot%20(79).png?raw=true",
     tags: [
-      "EJS",
-      "CSS",
-      "JavsScript",
+      "Next Js",
+      "React",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "Gemini API",
+    ],
+    category: "web app",
+    github: "https://github.com/Tarungupta18/AI-Interview-mocker",
+    webapp: "https://ai-interview-mocker-chi.vercel.app/",
+  },
+  {
+    id: 11,
+    title: "SteamMeet",
+    date: "July 2024 - July 2024",
+    description:
+      "A real-time video conferencing app that allows users to host video calls, send live messages, share their screens, and manage meeting settings such as muting participants and creating secure meeting rooms.",
+    image:
+      "https://github.com/Tarungupta18/upload-img/blob/aim/portfolio-img/Screenshot%20(94).png?raw=true",
+    tags: [
+      "React",
       "Node Js",
       "Express Js",
       "MongoDB",
-      "Passport Js",
+      "Socket.io",
     ],
     category: "web app",
-    github: "https://github.com/Tarungupta18/Delta-Project",
-    webapp: "https://delta-project-j05m.onrender.com/listings",
+    github: "https://github.com/Tarungupta18/StreamMeet",
+    webapp: "https://stream-meet-delta.vercel.app/",
+  },
+  {
+    id: 11,
+    title: "StayFinder",
+    date: "Jan 2024 - Jan 2024",
+    description:
+      "An online marketplace for finding accommodations, where users can search for properties using geo-location, view multimedia content, and securely sign up or log in to access personalized features.",
+    image:
+      "https://github.com/Tarungupta18/upload-img/blob/aim/portfolio-img/Screenshot%20(78).png?raw=true",
+    tags: [
+      "React",
+      "Node Js",
+      "Express Js",
+      "MongoDB",
+      "Cloudinary",
+      "JWT-Auth",
+    ],
+    category: "web app",
+    github: "https://github.com/Tarungupta18/StayFinder",
+    webapp: "https://stay-finder-five.vercel.app/",
   },
   {
     id: 9,
